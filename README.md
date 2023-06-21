@@ -1,5 +1,6 @@
 # PROB-LAB
 ### Mean and variance of a discrete distribution
+![Q1](https://github.com/SOWMIYA2003/PROB-LAB/assets/93427443/d9f21444-c2ee-4d84-a967-0fe362cdadbf)
 ```
 import numpy as np
 L=[int(i) for i in input().split()]
@@ -36,6 +37,8 @@ print("The Standard deviation of arrival from feeder is %.3f"%SD)
 
 ```
 ### Fitting Poisson distribution
+
+![Q2](https://github.com/SOWMIYA2003/PROB-LAB/assets/93427443/ff3aa4ef-aef2-4ce1-94d6-607d45528db1)
 ```
 import numpy as np
 import math
@@ -86,6 +89,7 @@ else:
 
 ```
 ### Correlation and regression for data analysis
+![Q3](https://github.com/SOWMIYA2003/PROB-LAB/assets/93427443/c213d73f-a82c-4d24-a148-28bcb2d64546)
 ```
 import numpy as np
 import math
@@ -121,6 +125,7 @@ plt.ylabel('y-data')
 plt.legend(['Regression Line','Data points'])
 ```
 ### Single server with infinite capacity (M/M/1):(oo/FIFO)
+![Q4](https://github.com/SOWMIYA2003/PROB-LAB/assets/93427443/602054b2-e7b5-4613-a65d-77339905f531)
 ```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -149,6 +154,7 @@ print("---------------------------------------------------------------")
 
 ```
 ### Multiple server with infinite capacity - (M/M/c):(oo/FIFO)
+![Q5](https://github.com/SOWMIYA2003/PROB-LAB/assets/93427443/b8a516ec-066a-4218-af83-e76bbbc199f3)
 ```
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
@@ -224,3 +230,8 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
 ```
+
+
+
+![Q6](https://github.com/SOWMIYA2003/PROB-LAB/assets/93427443/6d29950f-3097-418a-a4ea-d493d044ceb4)
+
